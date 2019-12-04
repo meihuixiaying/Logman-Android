@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:logman="http://schemas.android.com/apk/res/com.t2mobile.logman"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/window_bottom"
+        android:orientation="horizontal" >
+
+        <com.t2mobile.logman.component.ActionTextView
+            android:id="@+id/action_selecte"
+            style="@style/actionTextviewStyle"
+            android:text="@string/main_title_bug"
+            logman:actionStatus="unselected"
+            logman:intermedialIcon="@drawable/bug_intermedial"
+            logman:selectedIcon="@drawable/bug_selected"
+            logman:unselectedIcon="@drawable/bug_unseleted" />
+
+        <com.t2mobile.logman.component.ActionTextView
+            android:id="@+id/action_config"
+            style="@style/actionTextviewStyle"
+            android:text="@string/main_title_config"
+            logman:actionStatus="unselected"
+            logman:intermedialIcon="@drawable/config_intermedial"
+            logman:selectedIcon="@drawable/config_selected"
+            logman:unselectedIcon="@drawable/config_unselected" />
+
+        <com.t2mobile.logman.component.ActionTextView
+            android:id="@+id/action_record"
+            style="@style/actionTextviewStyle"
+            android:text="@string/main_title_record"
+            logman:actionStatus="unselected"
+            logman:intermedialIcon="@drawable/record_intermedial"
+            logman:selectedIcon="@drawable/record_selected"
+            logman:unselectedIcon="@drawable/record_unselected" />
+
+        <com.t2mobile.logman.component.ActionTextView
+            android:id="@+id/action_my"
+            style="@style/actionTextviewStyle"
+            android:text="@string/main_title_my"
+            logman:actionStatus="unselected"
+            logman:intermedialIcon="@drawable/my_intermedial"
+            logman:selectedIcon="@drawable/my_selected"
+            logman:unselectedIcon="@drawable/my_unselected" />
+    </LinearLayout>
+
+</LinearLayout>

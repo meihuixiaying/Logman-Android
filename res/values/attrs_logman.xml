@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ActionView">
+        <attr name="selectedColor" format="color" />
+        <attr name="unselectedColor" format="color" />
+        <attr name="intermedialColor" format="color" />
+        <attr name="actionStatus">
+            <enum name="selected" value="0" />
+            <enum name="intermedial" value="1" />
+            <enum name="unselected" value="2" />
+        </attr>
+        <attr name="selectedIcon" format="reference" />
+        <attr name="unselectedIcon" format="reference" />
+        <attr name="intermedialIcon" format="reference" />
+    </declare-styleable>
+
+</resources>

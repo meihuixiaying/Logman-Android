@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Logman</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_suggest">SuggestActivity</string>
+    <string name="title_activity_record">RecordActivity</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+
+    <!-- main -->
+    <string name="main_title_bug">Bug</string>
+    <string name="main_title_config">Config</string>
+    <string name="main_title_record">Record</string>
+    <string name="main_title_my">My</string>
+
+</resources>

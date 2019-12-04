@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ActionTextView -->
+    <color name="unselected_color">#A7A7A7</color>
+    <color name="intermedial_color">#007FFF</color>
+    <color name="selected_color">#0047AB</color>
+
+</resources>

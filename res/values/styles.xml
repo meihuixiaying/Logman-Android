@@ -1,0 +1,41 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">40dp</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="AppFullTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppMainThem" parent="AppBaseTheme">
+        <item name="android:background">#EBEBEB</item>
+        <item name="android:windowTitleStyle">@style/windowTitleStyle</item>
+        <item name="android:windowTitleBackgroundStyle">@style/windowTitleBackgroundStyle</item>
+    </style>
+
+    <style name="windowTitleBackgroundStyle">
+        <item name="android:background">@drawable/window_top</item>
+    </style>
+
+    <style name="windowTitleStyle">
+        <item name="android:drawableLeft">@null</item>
+        <item name="android:textColor">#F5F5F5</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="actionTextviewStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+</resources>
